@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:background="@color/main"
+                android:gravity="center"
+                android:padding="18dp"
+                android:text="Update Your Information"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/imageEditUrl"
+                android:background="@drawable/edit_text"
+                android:hint="Edit Image Url"
+                android:padding="10dp"
+                android:textColor="@color/main"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/nameEdit"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edit_text"
+                android:hint="Edit Name"
+                android:padding="10dp"
+                android:textColor="@color/main"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/branchEdit"
+                android:background="@drawable/edit_text"
+                android:hint="Edit Branch"
+                android:padding="10dp"
+                android:textColor="@color/main"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/editUsn"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edit_text"
+                android:hint="Edit USN"
+                android:padding="10dp"
+                android:textColor="@color/main"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edit_text"
+                android:id="@+id/editEmail"
+                android:hint="Edit Email"
+                android:padding="10dp"
+                android:textColor="@color/main"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_bg"
+                android:padding="15dp"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:id="@+id/updateBtn"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
+
+
